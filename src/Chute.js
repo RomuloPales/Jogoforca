@@ -4,17 +4,17 @@ export default function Chute({
   setInputText,
   arrayWord,
   setChangeColor,
-  setWord,
+  setWordOn,
   resetFunc,
   setCount,
 }) {
-  function palpite() {
+  function testGuess() {
     if (inputText.toLowerCase() === arrayWord.join("")) {
-      setWord(true);
+      setWordOn(true);
       setChangeColor("winGreen");
       resetFunc();
     } else {
-      setWord(true);
+      setWordOn(true);
       setCount(6);
       setChangeColor("lostRed");
       resetFunc();
@@ -36,11 +36,11 @@ export default function Chute({
       />
       <button
         data-test="guess-button"
-        onClick={palpite}
+        onClick={testGuess}
         disabled={isInputDisabled}
         className="button_input"
       >
-        Chute!
+        Chutar
       </button>
     </div>
   );
