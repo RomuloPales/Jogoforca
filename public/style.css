@@ -1,0 +1,122 @@
+img{
+    width: 400px;
+    height: 466px;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between
+}
+
+.image{
+    margin-left: 200px;
+    margin-top: 59px;
+}
+
+.right_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 200px;
+    margin-top: 59px;
+    width:540px;
+    height: 466px;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    margin-top: 28px;
+    margin-right: 38px;
+    background-color: #27AE60;
+    border-radius: 5px;
+    color:white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.letter_buttons{
+    width: 718px;
+    height: 115px;
+    margin-top: 70px;
+    margin-left: 310px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt_letter{
+    width:40px ;
+    height: 40px;
+    margin-left:12px;
+    background-color: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16;
+    font-weight: 700;
+    color: #39739D;
+}
+
+.bt_letter[disabled=disabled], .bt_letter:disabled {
+    background-color: #798A9F;
+}
+
+.randWord{
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 38px;
+    margin-top: 300px;
+    letter-spacing: 15px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.lostRed{
+    color:red;
+}
+
+.winGreen{
+    color :green;
+}
+
+.guess_input{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+h1{
+    margin-right: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.input_class{
+    width: 350px;
+    height: 40px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+    border: 1px solid #cccccc;
+}
+
+.button_input{
+    height: 40px;
+    width: 100px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    color: #3C76A1;
+}
+
+.button_input[disabled=disabled], .button_input:disabled {
+    background-color: #798A9F;
+}
